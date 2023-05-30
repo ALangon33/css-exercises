@@ -1,0 +1,15 @@
+/* style.css */
+.agreeable,
+.disagreeable {
+	font-size:28px;
+	font-family:Helvetica,"Times New Roman",sans-serif;
+}
+
+.agreeable {
+	background-color: #101010;
+	color: #FAFAFA;
+}
+
+.disagreeable {
+	background-color: #F0F000;
+}
