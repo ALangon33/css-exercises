@@ -1,10 +1,19 @@
 /* style.css */
+
 .flower {
 	background-color: rgb(255, 150, 150);
 	font-family: "Verdana", "DejaVu Sans", sans-serif;
 }
 
+.third {
+	font-size: 24px;
+}
+
 #second {
 	color:#0000FF;
 	font-size: 24px;
+}
+
+#fourth {
+	background-color: hsl(140, 90%, 80%);
 }
