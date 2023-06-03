@@ -3,13 +3,32 @@ body {
 }
 
 img {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
+}
+
+.container {
+  display:flex;
+  flex-flow:column nowrap;
+  align-items: center;
+}
+
+.info-container {
+  display:flex;
+  gap:0px 52px;
+}
+
+.card {
+  display:flex;
+  flex-flow:column;
+  align-items: center;
+  text-align: center;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
