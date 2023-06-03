@@ -34,6 +34,16 @@ body {
 .left,
 .right {
   display:flex;
+  align-items: center;
+  gap:16px;
+}
+
+.left {
+  margin-left:8px;
+}
+
+.right {
+  margin-right:8px;
 }
 
 button {
@@ -51,6 +61,8 @@ a {
 }
 
 ul {
+  padding:0;
   display:flex;
   list-style-type: none;
+  gap: 16px;
 }
