@@ -30,6 +30,7 @@ input {
 
 ul {
   list-style: none;
+  padding: 0;
 }
 
 a {
@@ -39,4 +40,9 @@ a {
 .header {
   display: flex;
   justify-content: space-between;
+}
+
+.left-links,
+.right-links {
+  display: flex;
 }
