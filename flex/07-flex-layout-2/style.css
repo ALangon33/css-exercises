@@ -7,16 +7,32 @@ body {
   justify-content: space-between;
 }
 
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color:#fff;
+}
+
 .header {
+  display:flex;
   height: 72px;
+  font-size: 24px;
   background: darkmagenta;
   color: white;
+  align-items: center;
+  padding-left:10px;
 }
 
 .footer {
+  display: flex;
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar {
@@ -28,6 +44,13 @@ body {
 .content {
   display: flex;
   flex:1;
+}
+
+.card-zone {
+  display:flex;
+  flex-flow: column wrap;
+  gap:16px;
+
 }
 
 .card {
